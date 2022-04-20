@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 
 
-export default function Home() {
+export default function AboutUs() {
   return (
     <div className="container">
       <Head>
@@ -13,7 +13,7 @@ export default function Home() {
 
       <main>
         <h1 className="title">
-          Welcome to the healthy lifestyle company.
+          About Us
         </h1>
 
         <p className="description">
@@ -21,10 +21,10 @@ export default function Home() {
         </p>
 
         <div className="grid">
-          <Link href="/about-us">
+          <Link href="/">
           <a className="card">
-            <h3>About Us &rarr;</h3>
-            <p>Find out more about the team behind the healthy lifestyle company.</p>
+            <h3>Home &rarr;</h3>
+            <p>Return to the home page.</p>
           </a>
           </Link>
           {/* <a href="https://nextjs.org/learn" className="card">
